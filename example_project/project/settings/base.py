@@ -89,6 +89,7 @@ DATABASES = {
 
 # GENERAL CONFIGURATION
 # ------------------------------------------------------------------------------
+MACHINA_FORUM_NAME = 'LetUsChat!'
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -129,7 +130,7 @@ LOCALE_PATHS = (
 # ------------------------------------------------------------------------------
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
-SECRET_KEY = 'NOTSECRET'
+SECRET_KEY = 'Welcome2TheTechWorldLetUsChat'
 
 
 # TEMPLATE CONFIGURATION
@@ -188,6 +189,7 @@ STATICFILES_FINDERS = (
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#std:setting-STATICFILES_STORAGE
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+
 
 
 # MEDIA CONFIGURATION
